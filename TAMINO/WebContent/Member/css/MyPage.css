@@ -1,0 +1,163 @@
+@charset "UTF-8";
+body {
+	margin:0;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	top: 0;
+	left: 0;
+	background-color: black;
+}
+
+#logoimg{
+	margin-top: 0.3rem;
+	margin-left: 2rem;
+	float: left;
+}
+
+.menu {
+	float: left;
+	margin-left: 5rem;
+	height: 70px;
+	display: inline-flex;
+}
+.menu a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20pt;
+	padding: 20px;
+	line-height: 0px;
+	color: #fff;
+	height: auto;
+	line-height: 30px;
+	width: 150px;
+	text-align: center;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background-color: rgb(255,255,255);
+	color: black; 
+	cursor: pointer;
+}
+
+.login a#login{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	float: right;
+	color: #fff;
+	margin-right: 3rem;
+	margin-top: 1.5rem;
+	text-decoration: none;
+}
+
+.infodiv{
+	margin-top: 100px;
+}
+
+.infodiv p{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 25pt;
+	font-weight: bold;
+	margin-bottom: 5rem;
+}
+
+table.infotable{
+	width: 40%;
+}
+
+input{
+	height: 30px;
+	font-size: 13pt;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid black; 
+}
+
+input.phone{
+	width: 100px;
+}
+
+.adbtn{
+	background-color: black;
+	color: #fff;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+	height: 40px;
+	padding: 10px 10px 10px;
+	cursor: pointer;
+	width: 120px;
+	font-size: 12pt;
+	line-height: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btns{
+	background-color: black;
+	color: #fff;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+	height: 50px;
+	padding: 10px 10px 10px;
+	cursor: pointer;
+	width: 300px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15pt;
+	margin-top: 1rem;
+	outline: none;
+}
+
+.btns:hover{
+	background-color: #FFAF00;
+	color: #fff;
+}
+
+.btns#_account:hover{
+	background-color: #55967e;
+	color: #fff;
+}
+
+.btns2{
+	background-color: black;
+	color: #fff;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+	height: 50px;
+	padding: 10px 10px 10px;
+	cursor: pointer;
+	width: 300px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 15pt;
+	margin-top: 1rem;
+	outline: none;
+}
+
+.btns2:hover{
+	background-color: #55967e;
+	color: #fff;
+}
+
+div.account{
+	width: 100%;
+	height: 700px;
+	top:16%;
+	background-color: #fff;
+	position: fixed;
+	 display: none;
+	 /* border: 1px solid black;  */
+}
+
+table.account_table{
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 30%;
+	margin: auto;
+}
+
+table.EPfindtable{
+	font-family: 'Noto Sans KR', sans-serif;
+}

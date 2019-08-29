@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.overlay{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.7);
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 10000;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20pt;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 3rem;
+  font-family: 'Noto Sans KR:300', sans-serif;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #dedcee;
+}
+
+.overlay p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40pt;
+	color: #fff;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+button.writeModal{
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	width: 10%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button.writeModal:hover{
+	background-color: #AAABD3;
+}
+
+div.qnacaption{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-left: 40px;
+}
+
+table.qnatable{
+	border: none;
+	border-collapse: collapse;
+	font-family: 'Noto Sans KR:300', sans-serif;
+}
+
+table.qnatable tr{
+	height: 45px;
+	font-size: 12pt;
+	border: none;
+	border-bottom: 1px solid #E0EBFF;
+}
+
+table.qnatable tr.last_tr{
+	border: none;
+	padding: 20px;
+}
+
+table.qnatable tr.boardrow:hover{
+	background-color: #f8f8ff;
+}
+
+table.qnatable th{
+	height: 55px;
+	border: none;
+	border-bottom: 2px solid #dcdcdc;
+	border-top: 2px solid #dcdcdc;
+	font-size: 13pt;
+	font-family: 'Noto Sans KR:400', sans-serif;
+}
+
+table.qnatable td{
+	border: none;
+	padding: 5px;
+}
+
+table.qnatable td.QnAtitle{
+	padding-left: 20px;
+}
+
+.Deltitle{
+	cursor: pointer;
+	font-style: italic;
+}
+
+.QnAtitle{
+	cursor: pointer;
+}
+
+.QnAtitle:hover{
+	/* text-decoration: underline; */
+	background-color: #f8f8ff;
+}
+
+.pages{
+	width: 100%;
+	margin-top: 3rem;
+    text-align: center;
+    float: left;
+    display: inline-block;
+}
+
+.pages a{
+	text-decoration: none;
+	font-size: 15pt;
+	font-family: 'Roboto', sans-serif;
+	padding: 3px 10px 3px 10px;
+	margin: 0.3rem;
+	color: black;
+	transition: 0.2s;
+}
+
+.pages a:hover{
+	background-color: #AAABD3;
+	color: #fff;
+	
+}
+
+table.modaltable{
+	border: none;
+	border-collapse: collapse;
+	font-family: 'Noto Sans KR:300', sans-serif;
+	margin: auto;
+	margin-top: 15px;
+}
+
+table.modaltable th{
+	background-color: #f8f8ff;
+}
+
+table.modaltable td{
+	padding: 10px;
+	font-family: 'Noto Sans KR:300', sans-serif;
+}
+
+#QnAtitle_txt{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	width: 95%;
+	height: 25px;
+	font-family: 'Noto Sans KR:300', sans-serif;
+	font-size: 13pt;
+}
+
+select#qnaselect{
+	height: 30px;
+	width: 200px;
+}
+
+textarea#qnatextarea{
+	resize: none;
+	font-family: 'Noto Sans KR:300', sans-serif;
+	font-size: 10pt;
+	outline: none;
+}
+
+button#writeBtn{
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	width: 20%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button#writeBtn:hover{
+	background-color: #AAABD3;
+}
+
+.detailBtn{
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.3rem;
+	margin-right: 0.5rem;
+	width: 20%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.detailBtn:hover {
+	background-color: #AAABD3;
+}
+
+textarea{
+	resize: none;
+}
+

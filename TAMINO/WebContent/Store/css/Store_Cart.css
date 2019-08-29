@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+body{
+	min-width: 750px;
+}
+
+* {box-sizing: border-box;}
+img {vertical-align: middle;}
+
+.header{
+	display: block;
+	position: fixed;
+	background: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	/* border: 3px solid blue; */
+	/* padding-left: 1rem;
+	padding-right: 1rem; */
+}
+.header_container{
+	width: 100%;
+	z-index: 1;
+	flex: auto;
+	background: #fff;
+}
+
+.header_content{
+	width: 100%;
+	height: 130px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	background: #FFFFFF;
+	position: relative;
+	/* border: 3px solid teal; */
+}
+
+.navbar {
+    overflow: hidden;
+  background-color: #fff;
+  height: 60px;
+ /*  border: 3px solid aqua; */
+  width: 70%;
+  float: left;
+  margin-left: 15rem; 
+  padding-left: 1rem;
+  position: absolute;
+  top: 53%;
+  transform: translate(30%,-50%);
+}
+
+.logo{
+	width: 20%;
+	height: auto;
+	min-height: 70px;
+	overflow: hidden;
+	float: left;
+	display: block;
+	text-align: center;
+	/* border: 2px solid fuchsia; */
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 430%;
+}
+
+
+.logo img{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	/* border: 2px solid orange; */
+	margin: auto;
+	min-height: 40px;
+	/* transform: translate(0, -50%); */
+	vertical-align: middle;
+	padding-left: 1rem;
+}
+
+.logo a:hover{
+	cursor: pointer;
+}
+
+.navbar a{
+	float: left;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	/* border: 1px solid gray; */
+	margin-right: 2rem;
+	font-size: 20pt;
+	font-family: 'Roboto', sans-serif;
+	/* line-height: 150%; */
+	line-height: 110%;
+}
+
+.navbar a:hover{
+	color: #AAABD3;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) { 
+	.navbar{ 
+		margin-left: 10rem;
+		transition: 0.4s;
+	}
+	
+}
+
+@media screen and (max-width: 1200px) { 
+	.navbar{ 
+		margin-left: 5rem;
+		transition: 0.4s;
+	}
+	
+	.navbar a{
+		margin-right: 0;
+	}
+	.detailbox{ 
+		max-width: 80%;
+		transition: 0.4s;
+	}
+	
+}
+
+@media screen and (max-width: 1100px) { 
+	.navbar{ 
+		/* margin-left: 1rem; */
+		transition: 0.4s;
+	}
+	
+}
+
+@media screen and (max-width: 1000px) { 
+	.navbar a{ 
+		font-size: 15pt;
+		
+		line-height: 200%;
+		transition: 0.4s;
+	}
+	.product-wrapper{
+		width: -webkit-fill-available;
+		float: inherit;
+	}
+	.product-detail{
+		width: -webkit-fill-available;
+		float: inherit;
+		max-width: 500px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 750px) { 
+	.navbar{
+		margin-left: 0;
+	}
+	.navbar a{ 
+		font-size: 12pt;
+		margin-right: 0;
+		line-height: 250%;
+		transition: 0.4s;
+	}
+	
+}
+
+.logindiv {
+	width: 100%;
+	height: 50px;
+	/* border: 2px solid yellow; */
+	transform: translate(0, -10%);
+	margin-right: 3rem;
+	
+}
+
+.logindiv a{
+	display: block;
+	flex: auto;
+	float: right;
+    position: relative;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+    padding-top: 13px;
+    font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+.logindiv a:hover {
+	cursor: pointer;
+	
+}
+
+.logindiv a#cart{
+	margin-right: 3rem;
+}
+
+.logindiv a#login{
+	top: 2px;
+	margin-right: 1rem;
+	text-decoration: none;
+	color: black;
+}
+
+.logindiv a#mypage{
+	top: 2px;
+	text-decoration: underline;
+	cursor: pointer;
+	display: none;
+}
+
+.cartdiv{
+	margin-top: 200px;
+}
+
+.cart_table{
+	width: 60%;
+}
+
+.footer{
+	/* position: relative; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    max-height: 150px;
+    text-align: center;
+   /*  border: 3px solid lime; */
+    float: left;
+    box-sizing: border-box;
+   margin-top: 10rem;
+}
+
+.footer a{
+	margin-right: 30px;
+}
+.footer img{
+	margin-top: 1.5%;
+	margin-bottom: 0.8%
+}
+
+div.cartcaption{
+	font-family: 'Roboto', sans-serif;
+	font-size: 30pt;
+	padding: 30px;
+	background: #f5f5f5;
+	width: 60%;
+}
+
+table.cart_table{
+	border: none;
+	border-collapse: collapse;
+	font-family: 'Noto Sans KR:300', sans-serif;
+}
+
+table.cart_table th{
+	height: 50px;
+	font-family: 'Noto Sans KR:400', sans-serif;
+	font-size: 15pt;
+	border: none;
+	border-bottom: 2px solid #dcdcdc;
+	border-top: 2px solid #dcdcdc;
+}
+
+table.cart_table td{
+	border: none;
+	padding: 15px;
+	font-family: 'Noto Sans KR:400', sans-serif;
+	font-size: 12pt;
+	line-height: 200%;
+}
+
+table.cart_table tr{
+	border: none;
+	border-bottom: 1px solid #dcdcdc;
+}
+
+input[name=alldel]{
+	width: 15px;
+	height: 15px;
+}
+
+input[name=delcheck]{
+	width: 15px;
+	height: 15px;
+}
+
+button.option{
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.4rem;
+	margin-right: 1rem;
+	width: 60%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button.option:hover{
+	background-color: #AAABD3;
+}
+
+button#delBtn{
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.4rem;
+	margin-right: 1rem;
+	width: 60%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button#delBtn:hover{
+	background-color: indianred;
+}
+
+button#orderBtn{
+	background-color: black;
+	color: #fff;
+	font-size: 13pt;
+	border: none;
+	padding: 1rem;
+	margin-right: 1rem;
+	width: 40%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button#orderBtn:hover{
+	background-color: #008c9e;
+}
+
+.plusminusbtn{
+	margin-right: 10px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+	cursor: pointer;
+	padding: 10px;
+	background-color: rgba(0,0,0,0);
+	transition: 0.2s;
+}
+
+.plusminusbtn:hover{
+	color: #AAABD3;
+}
+
+input#quantity{
+	text-align: center;
+	width: 50px;
+	border: none;
+	font-size: 15px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+}
+
+input[name=update_name]{
+	outline: none;
+	border: none;
+	font-size: 25px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+button#updateBtn {
+	background-color: black;
+	color: #fff;
+	font-size: 12pt;
+	border: none;
+	padding: 0.4rem;
+	margin-right: 1rem;
+	width: 70%;
+	transition: 0.3s;
+	outline: none;
+	cursor: pointer;
+	font-family: 'Noto Sans KR', sans-serif;
+ 
+}
+
+button#updateBtn:hover {
+	background-color: #AAABD3;
+}
